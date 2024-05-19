@@ -218,3 +218,23 @@ a{
     cursor: pointer;
     color: hsl(224, 93%, 58%);
   }
+
+  @media screen and (min-width:375px) and (max-width:600px){
+    main{
+      text-align: center;
+    }
+   .first_section, .second_section{
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   .second_box, .illustration-2 ,.testimonial, .contain{
+    width: 100%;
+   }
+   .first_box, .first_box h1, .first_box p, .advert, .advert p{
+    width: 100%;
+   }
+   .input_button ,.contain{
+    flex-direction: column;
+   }
+   
+  }
