@@ -222,6 +222,25 @@ a{
     main{
       text-align: center;
     }
+    .nav_bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin:0 auto;
+      margin-top: 40px;
+      margin-bottom: 50px;
+  }
+  
+  .logo{
+      width: 80px;
+  }
+  .nav_links{
+      display: flex;
+      gap:20px; 
+  }
+
+   
    .first_section, .second_section{
     flex-direction: column-reverse;
     width: 100%;
@@ -237,12 +256,12 @@ a{
    }
    .first_box h1{
     font-size: 25px;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 30px;
    }
    .first_box p{
-    width: 75%;
+    width: 85%;
     margin-top: 25px;
     margin-bottom: 30px; 
    }
